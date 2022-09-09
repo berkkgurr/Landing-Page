@@ -16,6 +16,21 @@ a{
 html{
     font-family: 'Open Sans', sans-serif;
 }
+.sayfa-basi{
+    font-size: 2rem;
+    text-align: center;
+    color: #336ea2;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    padding: 1rem;
+    opacity: 0.8;
+    z-index: 3;
+}
 #navbar{
     color: white;
     display: flex;
@@ -39,6 +54,7 @@ html{
 .position{
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 .snap{
     height: 300px;
@@ -119,6 +135,7 @@ html{
     left: 0;
 }
 .courses .course .course-info .title{
+    color: yellow;
     font-weight: 700;
     margin-bottom: 0.2rem;
 }
