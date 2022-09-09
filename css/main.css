@@ -25,8 +25,8 @@ html{
     height: 60px;
     border-radius: 100%;
     position: fixed;
-    bottom: 5px;
-    left: 5px;
+    bottom: 15px;
+    left: 15px;
     padding: 1rem;
     opacity: 0.8;
     z-index: 3;
